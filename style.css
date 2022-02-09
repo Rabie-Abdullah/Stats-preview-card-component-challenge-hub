@@ -16,6 +16,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
     line-height: 1.7;
     background-color: var(--main-background);
     color: var(--main-paragraph);
@@ -29,7 +30,7 @@ img {
     border-radius: 0px 10px 10px 0px;
 }
 main {
-    width: 70%;
+    width: 60%;
     height: 450px;
     display: flex;
     flex-direction: row-reverse;
@@ -50,11 +51,14 @@ main h1, h2 {
     
 }
 .text {
-    width: 70%;
+    width: 85%;
 }
 h1 {
     margin-bottom: 20px;
     font-weight: 700;
+}
+p {
+    margin-right: 10px;
 }
 .blue {
     color: var(--Soft-violet)
