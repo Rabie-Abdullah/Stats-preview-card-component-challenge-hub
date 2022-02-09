@@ -30,7 +30,7 @@ img {
     border-radius: 0px 10px 10px 0px;
 }
 main {
-    width: 60%;
+    width: 75%;
     height: 450px;
     display: flex;
     flex-direction: row-reverse;
@@ -58,7 +58,7 @@ h1 {
     font-weight: 700;
 }
 p {
-    margin-right: 10px;
+    margin-right: 120px;
 }
 .blue {
     color: var(--Soft-violet)
@@ -82,7 +82,7 @@ p {
     background-color: var(--Soft-violet);
     opacity: 0.8;
 }
-@media screen and (max-width: 1014px) {
+@media screen and (max-width: 1024px) {
     
     main {
         height: auto;
@@ -113,6 +113,9 @@ p {
     border-radius:  10px 10px 0  0 !important;
     
 }
+p {
+    margin: 0;
+}
 img {
     border-radius: 100px 10px 0 0 !important;
 }
@@ -125,7 +128,7 @@ img {
 }
 .overlay {
     border-radius:  10px 10px 0  0 !important;
-    height: 97%;
+    height: 99%;
 
 }
 }
